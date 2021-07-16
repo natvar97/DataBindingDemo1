@@ -25,7 +25,7 @@ class ChooseQuantityDialog : DialogFragment() {
         mBinding = DialogChooseQuantityBinding.inflate(inflater, container, false)
         mBinding!!.listView.setOnItemClickListener(mOnItemClickListener)
         mBinding!!.closeDialog.setOnClickListener(mCloseDialogListener)
-        return mBinding!!.getRoot()
+        return mBinding!!.root
     }
 
     var mOnItemClickListener =
